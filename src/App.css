@@ -1,0 +1,36 @@
+/* App.css */
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.coins {
+  display: flex;
+}
+
+.coin {
+  background-color: orange;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cart {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
